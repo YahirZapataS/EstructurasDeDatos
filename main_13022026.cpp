@@ -79,4 +79,12 @@ int main()
     cout << "Vector ordenado" << endl;
     for (int x : datos) cout << x << endl;
     cout << endl;
+
+    //Valor Máximo
+    cout << *max_element(datos.begin(), datos.end());
+    //Valor Mínimo
+    cout << *min_element(datos.begin(), datos.end());
+
+    //Invertir un vector
+    reverse(datos.begin(), datos.end());
 }
